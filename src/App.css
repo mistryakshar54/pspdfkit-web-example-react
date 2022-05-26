@@ -1,9 +1,7 @@
 .App {
   text-align: center;
   display: flex;
-  flex-direction: column;
   height: 100vh;
-  overflow: hidden;
 }
 
 .App-button {
@@ -17,6 +15,13 @@
 }
 
 .App-viewer {
-  position: relative;
-  flex: 1;
+  flex: 3;
+}
+
+
+.formfields {
+  display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
 }
