@@ -6,6 +6,7 @@ const { Rect } = pspdfkit.Geometry;
 const { RectangleAnnotation } = pspdfkit.Annotations;
 
 function App() {
+  // const document = "rb.pdf";
   // const document = "DE9rev1.pdf";
   const document = "de9c.pdf";
 
